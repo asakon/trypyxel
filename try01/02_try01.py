@@ -14,7 +14,7 @@ class App:
 
 	def draw(self):
 		# 画面を色でクリアする
-		pyxel.cls(0)
+		pyxel.cls(7)
 
 
 App()
