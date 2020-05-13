@@ -5,6 +5,9 @@ class App:
 		# アプリの画面サイズ。幅、高さ、キャプション
 		pyxel.init(160, 120, caption="Catio")
 
+		# load image
+		pyxel.image(0).load(0, 0, "assets/cat_16x16.png")
+
 		# アプリの開始 
 		pyxel.run(self.update, self.draw)
 
