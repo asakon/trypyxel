@@ -13,11 +13,14 @@ class App:
 
 	# フレーム処理
 	def update(self):
-		pyxel.show()
+		if pyxel.btnp(pyxel.KEY_Q):
+			pyxel.quit()
+
 
 	def draw(self):
 		# 画面を色でクリアする
 		pyxel.cls(7)
+		pyxel.text(55, 41, "Catio Brosse", 8)
 
 
 App()
