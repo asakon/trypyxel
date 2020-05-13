@@ -5,9 +5,10 @@ class App:
 		# アプリの画面サイズ。幅、高さ、キャプション
 		pyxel.init(160, 120, caption="Catio")
 
-		# アプリの開始。 
+		# アプリの開始 
 		pyxel.run(self.update, self.draw)
 
+	# フレーム処理
 	def update(self):
 		pyxel.show()
 
