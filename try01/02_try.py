@@ -22,7 +22,7 @@ class App:
 		pyxel.cls(7)
 		pyxel.text(55, 41, "Catio Brosse", 8)
 		# blt(x, y, img, u, v, w, h, [colkey])
-		pyxel.blt(70, 66, 0, 0, 0, 16, 16, 8)
+		pyxel.blt(70, 66, 0, 16, 0, 16, 16 , 8)
 
 
 App()
